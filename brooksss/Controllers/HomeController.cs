@@ -13,6 +13,11 @@ namespace brooksss.Controllers
             return View();
         }
 
+        public ActionResult OtherView()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
